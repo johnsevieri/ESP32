@@ -1,4 +1,3 @@
-// Code for Oceans Dream Instruments
 // Initial set up May2024
 
 #include <Adafruit_BME280.h>  
@@ -20,10 +19,10 @@
 #include "sensesp/transforms/frequency.h"
 #include "sensesp/transforms/lambda_transform.h"
 
-#define WIFI_SSID "pi"
-#define WIFI_PASSWORD "roborough"
+#define WIFI_SSID "****"
+#define WIFI_PASSWORD "******"
 
-  WiFi.begin("pi","roborough");
+  WiFi.begin("****","******");
 
 
 using namespace sensesp;
